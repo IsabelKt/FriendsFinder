@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Magic Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <span class="fa fa-fire"></span> The Magic Survey</h1>
+      <hr>
+      <h2 class="text-center">Try It</h2>
+      <br>
+      <div class="text-center">
+        <!-- <a href="/survey">
+          <button class="btn btn-lg btn-primary">
+            <span class="fa fa-list-alt"></span> View Tables</button>
+        </a> -->
+        <a href="/">
+          <button class="btn btn-lg btn-default">
+            <span class="fa fa-home"></span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            Friend Survey, Choose Wisely
+            <label for="cheatsheet">1 = strongly agree -> 5 = strongly disagree</label>
+          </div>
+          <div class="card-body">
+            <form role="form">
+              <div class="form-group">
+                  <label for="friend-name">Name</label>
+                  <input type="text" class="form-control" id="friend-name">
+                </div>
+                <div class="form-group">
+                    <label for="friend-email">Email</label>
+                    <input type="text" class="form-control" id="friend-email">
+                  </div>
+                  <div class="form-group">
+                      <label for="friend-photo">Email</label>
+                      <input type="url" class="form-control" id="friend-photo">
+                    </div>
+                  <div class="form-group">
+                      <label for="question-one">People should be themselves.</label>
+                  <select  class="questions" id="question-one">
+                    <option value="1" class="answer">1</option>
+                    <option value="2" class="answer">2</option>
+                    <option value="3" class="answer">3</option>
+                    <option value="4" class="answer">4</option>
+                    <option value="5" class="answer">5</option>
+                  </select>
+                  <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+                </div>
+                <div class="form-group">
+                    <label for="question-two">There is nothing like spending time outdoors.</label>
+                <select  class="questions" id="question-two">
+                  <option value="1" class="answer">1</option>
+                  <option value="2" class="answer">2</option>
+                  <option value="3" class="answer">3</option>
+                  <option value="4" class="answer">4</option>
+                  <option value="5" class="answer">5</option>
+                </select>
+                <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+              </div><div class="form-group">
+                  <label for="question-three">Musicals are awesome.</label>
+              <select  class="questions" id="question-three">
+                <option value="1" class="answer">1</option>
+                <option value="2" class="answer">2</option>
+                <option value="3" class="answer">3</option>
+                <option value="4" class="answer">4</option>
+                <option value="5" class="answer">5</option>
+              </select>
+              <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+            </div><div class="form-group">
+                <label for="question-four">Birthdays need to be celebrated.</label>
+            <select  class="questions" id="question-one">
+              <option value="1" class="answer">1</option>
+              <option value="2" class="answer">2</option>
+              <option value="3" class="answer">3</option>
+              <option value="4" class="answer">4</option>
+              <option value="5" class="answer">5</option>
+            </select>
+            <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+          </div>
+          <div class="form-group">
+              <label for="question-five">Life is an adventure.</label>
+          <select  class="questions" id="question-five">
+            <option value="1" class="answer">1</option>
+            <option value="2" class="answer">2</option>
+            <option value="3" class="answer">3</option>
+            <option value="4" class="answer">4</option>
+            <option value="5" class="answer">5</option>
+          </select>
+          <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+        </div>
+        <div class="form-group">
+            <label for="question-six">Where there is a will there is a way.</label>
+        <select  class="questions" id="question-six">
+          <option value="1" class="answer">1</option>
+          <option value="2" class="answer">2</option>
+          <option value="3" class="answer">3</option>
+          <option value="4" class="answer">4</option>
+          <option value="5" class="answer">5</option>
+        </select>
+        <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+      </div>
+      <div class="form-group">
+          <label for="question-seven">It's about the journey.</label>
+      <select  class="questions" id="question-seven">
+        <option value="1" class="answer">1</option>
+        <option value="2" class="answer">2</option>
+        <option value="3" class="answer">3</option>
+        <option value="4" class="answer">4</option>
+        <option value="5" class="answer">5</option>
+      </select>
+      <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+    </div>
+    <div class="form-group">
+        <label for="question-eight">There's no place like home.</label>
+    <select  class="questions" id="question-eight">
+      <option value="1" class="answer">1</option>
+      <option value="2" class="answer">2</option>
+      <option value="3" class="answer">3</option>
+      <option value="4" class="answer">4</option>
+      <option value="5" class="answer">5</option>
+    </select>
+    <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+  </div>
+  <div class="form-group">
+      <label for="question-nine">If you have a fast car, you need to get a speed alert...to slow down only when you need to.</label>
+  <select  class="questions" id="question-nine">
+    <option value="1" class="answer">1</option>
+    <option value="2" class="answer">2</option>
+    <option value="3" class="answer">3</option>
+    <option value="4" class="answer">4</option>
+    <option value="5" class="answer">5</option>
+  </select>
+  <!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+</div>
+<div class="form-group">
+    <label for="question-ten">Supercalifragilisticexpialidocious, if you say it loud enough you'll always sound precocious.</label>
+<select  class="questions" id="question-ten">
+  <option value="1" class="answer">1</option>
+  <option value="2" class="answer">2</option>
+  <option value="3" class="answer">3</option>
+  <option value="4" class="answer">4</option>
+  <option value="5" class="answer">5</option>
+</select>
+<!-- <button data-planid="{{this.id}}" data-plan="{{this.plan}}" class="addreminder">Add Reminder</button> -->
+</div>
+              <div class="form-group">
+                <label for="friend-unique-id">Childhood Dream</label>
+                <input type="text" class="form-control" id="friend-unique-id">
+              </div>
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/home">API Home Link</a> |
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+  // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+  // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+  // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+  // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    // Here we grab the form elements
+    var newFriend = {
+      Name: $("#friend-name").val().trim(),
+      Email: $("#friend-email").val().trim(),
+      Photo: $("#friend-photo").val().trim(),
+      Scores:[$("questions").val().trim()],
+      // add friend scores in an array to pass through here, friend scores are the answers chosen for each of the ten questions.
+      Dream: $("#friend-unique-id").val().trim()
+    };
+
+    console.log(newFriend);
+
+    // This line is the magic. It"s very similar to the standard ajax function we used.
+    // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+    // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+    // depending on if a tables is available or not.
+
+    $.post("/api/friends", newFriend,
+      function(data) {
+
+        // If someone takes the survey alert the user.
+        //If newFriend has a total number that is = to another friends, then let them know with a match.
+        // First grab the numbers from the array and subtract all from each other until there is a total, if the total is in - then multiply that total by -1, that transforms the data to a + integer. 
+        // Then compare the total score number to that of other friends. This can be done by either creating a new property for the array called total score and comparing total scores between friends, or by separately running the scores of each friend and giving each a total score and then comparing it to the other friends who have taken the survey.
+        // The friends that match with equal points or have a difference of =< to 2 points between them are published to a third page or a modal with the notification "Congrats, you found your bosom buddy."
+        // 
+        if (data) {
+          alert("Yay! You have another potential friend!");
+        }
+
+        // If anything else happens like a non human tries to take a survey
+        else {
+          alert("Sorry a robot tried to befriend you but we didn't let it!");
+        }
+
+        // Clear the form when submitting
+        $("#friend-name").val("");
+        $("#friend-email").val("");
+        $("#friend-photo").val("");
+        // $("#friend-scores").val("");
+        $("#friend-unique-id").val("");
+
+      });
+
+  });
+
+</script>
